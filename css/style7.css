@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+  background-color: salmon;
+    height: 90px;
+    color: white;
+    display:flex;
+    justify-content: center;
+   align-items: center;
+    flex-direction: column;
+}
+
+ nav ul{
+    
+   list-style: none;
+    display: flex;
+    background-color: #1bbc9b;
+    height: 50px;
+}
+  
+nav ul li {
+   text-decoration: none;
+   padding: 10px 20px;
+   color: white;
+}
+
+.deracha{
+    margin-left: 1000px;
+}
+
+main{
+    display: flex;
+  
+}
+
+
+main aside{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+   
+}
+
+.juano{
+    height:200px;
+    margin-top:10px;
+}
+
+main article{
+   width: 90%;
+   padding: 50px;
+}
+
+
+article .divart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    color: gray;
+    width: 1300px;
+    height: 200px;
+    
+
+   
+}
+
+article p{
+    
+    margin-top: 20px;
+}
+
+article .lineab{
+    border-bottom: solid 5px lightgray;
+    margin-bottom: 30px;
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-color: lightgray;
+}

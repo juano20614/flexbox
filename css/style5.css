@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+
+}
+
+
+header{
+    display :flex;
+    font-size: 20px;
+    height:100px ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+    display: flex;
+    height: 70vh;
+}
+
+
+article{
+display: flex;
+background-color:lightgray;
+width: 500px
+}
+
+
+nav{
+background-color:darkgrey;
+width: 1000px;
+
+}
+
+aside{
+    background-color:lightgray;
+    width: 500px;
+
+}
+
+footer{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 140px;
+}
